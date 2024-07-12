@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MeetMate"
+rootProject.name = "UX LECTURE PROJ"
 include(":app")
+ 
