@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private Button loginbutton;
+    private Button registerbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this, LoginPage.class);
                 startActivity(intent);
+            }
+        });
+
+        registerbutton=findViewById(R.id.register_button);
+        registerbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent2=new Intent(MainActivity.this, Register1Activity.class);
+                startActivity(intent2);
             }
         });
     }

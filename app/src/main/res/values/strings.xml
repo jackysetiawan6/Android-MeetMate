@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">UX LECTURE PROJ</string>
+    <string name="app_name">MeetMate</string>
+    <string name="reg_1">Hello There</string>
+    <string name="reg_2">Ready to find your new mate?</string>
+    <string name="reg_3">Please agree to the Terms for a fuller service experience.</string>
+    <string name="reg_4">Agree to all terms</string>
+    <string name="reg_5">(Required) Terms of Service</string>
+    <string name="reg_6">(Required) Privacy Policy</string>
+    <string name="reg_7">(Required) Location-based Service</string>
+    <string name="reg_8">(Required) Over 18 years of age</string>
+    <string name="reg_9">(Option) Receive event notifications</string>
+    <string name="reg_10">(Option) Receive push notification at night</string>
 </resources>

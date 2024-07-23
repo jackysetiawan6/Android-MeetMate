@@ -11,6 +11,8 @@
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/meetm" />
@@ -42,7 +44,7 @@
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="367dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/edittext_border"
         android:ems="10"
@@ -51,10 +53,9 @@
         android:paddingLeft="16dp"
         android:textColor="#8B5BF4"
         android:textColorHint="#8B5BF4"
-        android:textSize="13dp"
+        android:textSize="16dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioButton
@@ -67,7 +68,7 @@
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -86,7 +87,7 @@
     <EditText
         android:id="@+id/editTextNumberPassword2"
         android:layout_width="367dp"
-        android:layout_height="40dp"
+        android:layout_height="45dp"
         android:layout_marginBottom="240dp"
         android:background="@drawable/edittext_border"
         android:ems="10"
@@ -95,7 +96,7 @@
         android:paddingLeft="16dp"
         android:textColor="#8B5BF4"
         android:textColorHint="#8B5BF4"
-        android:textSize="13dp"
+        android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -104,26 +105,41 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="367dp"
-        android:layout_height="46dp"
-        android:backgroundTint="@color/white"
+        android:layout_height="45dp"
+        android:background="@drawable/radius50_global"
         android:text="Sign in"
+        android:textSize="16sp"
         android:textColor="#8B5BF4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword2"
+        android:textAllCaps="false"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="68dp"
-        android:text="Don’t have an account? Sign Up"
+        android:layout_marginBottom="64dp"
+        android:text="Don’t have an account? "
+        android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textColor="#fff"/>
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
