@@ -8,5 +8,7 @@
     <color name="light_purple">#BFACE2</color>
     <color name="pale_pink">#EBC7E6</color>
     <color name="def_purple">#8B5BF4</color>
+    <color name="dark_gray">#2E2E2E</color>
+    <color name="gray">#AFAFAF</color>
 
 </resources>

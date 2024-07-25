@@ -193,7 +193,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonback"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
@@ -210,7 +210,7 @@
         />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonnext"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"

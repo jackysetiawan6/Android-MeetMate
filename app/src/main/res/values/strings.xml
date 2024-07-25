@@ -10,4 +10,6 @@
     <string name="reg_8">(Required) Over 18 years of age</string>
     <string name="reg_9">(Option) Receive event notifications</string>
     <string name="reg_10">(Option) Receive push notification at night</string>
+    <string name="spam">TThis picture would be used to verify your account and would later be used for your profile picture. You can always change your profile picture later, for now please register at least 2 picture where it shows your face clearly</string>
 </resources>
+

@@ -2,4 +2,6 @@
 <resources>
     <dimen name="default_width">367dp</dimen>
     <dimen name="def_16">16sp</dimen>
+    <dimen name="big_32">32sp</dimen>
+    <dimen name="small_12">12sp</dimen>
 </resources>

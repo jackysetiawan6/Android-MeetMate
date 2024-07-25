@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register7Activity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="367dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="28dp"
+        android:max="110"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:progress="70"
+        android:progressDrawable="@drawable/rounded_corners_progressbar"
+        android:progressTint="#A084DC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_with_border_back"
+        android:text="Back"
+        android:textColor="@color/med_purple"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Next"
+        android:background="@drawable/radius50_button"
+        android:textColor="@color/purple_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Please select your nationality"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/big_32"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="This cannot be changed later on, so please select carefully"
+        android:textSize="@dimen/small_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:textColor="@color/gray"
+        />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:background="@drawable/outline_edittext_20"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Search natiionality"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="@color/med_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="367dp"
+        android:layout_height="402dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText1"
+        app:layout_constraintVertical_bias="0.093"
+        app:flexDirection="column"
+        android:scrollbars="vertical">
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            style="@style/CustomCheckbox02"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:paddingLeft="11dp"
+            android:text="@string/reg_4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="VisualLintButtonSize"
+            tools:layout_editor_absoluteY="152dp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            style="@style/CustomCheckbox02"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:paddingLeft="11dp"
+            android:text="@string/reg_4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.088"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="VisualLintButtonSize"
+            tools:layout_editor_absoluteY="152dp"
+
+            />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

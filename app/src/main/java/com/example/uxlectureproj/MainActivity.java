@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        loginbutton=findViewById(R.id.login_button);
-        loginbutton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, LoginPage.class);
-                startActivity(intent);
-            }
-        });
+            loginbutton=findViewById(R.id.login_button);
+            loginbutton.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent intent=new Intent(MainActivity.this, LoginPage.class);
+                    startActivity(intent);
+                }
+            });
 
         registerbutton=findViewById(R.id.register_button);
         registerbutton.setOnClickListener(new View.OnClickListener() {

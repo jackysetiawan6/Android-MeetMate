@@ -7,4 +7,175 @@
     android:layout_height="match_parent"
     tools:context=".Register3Activity">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="367dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="28dp"
+        android:max="110"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:progress="30"
+        android:progressDrawable="@drawable/rounded_corners_progressbar"
+        android:progressTint="#A084DC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_with_border_back"
+        android:text="Back"
+        android:textColor="@color/med_purple"
+        android:padding="10dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Next"
+        android:background="@drawable/radius50_button"
+        android:textColor="@color/purple_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Please fill in the basic information"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/big_32"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="This information will be the basic building blocks for you to meet  your new mate!"
+        android:textSize="@dimen/small_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:textColor="@color/gray"
+        />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:flexDirection="column"
+        app:justifyContent="space_between">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textSize="@dimen/def_16"
+                android:textColor="@color/dark_gray"/>
+
+            <EditText
+                android:id="@+id/editTextText1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Name"
+                android:background="@drawable/outline_edittext"
+                android:padding="10dp"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:textSize="@dimen/def_16"
+                android:textColor="@color/dark_gray"/>
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Gender"
+                android:background="@drawable/outline_edittext"
+                android:padding="10dp"
+                android:gravity="center_vertical"  />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date of Birth"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/def_16" />
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="DOB"
+                android:background="@drawable/outline_edittext"
+                android:padding="10dp"
+                android:gravity="center_vertical"  />
+        </LinearLayout>
+
+    </com.google.android.flexbox.FlexboxLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
