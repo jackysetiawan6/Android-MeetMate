@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/register7"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register7Activity">
@@ -92,7 +92,7 @@
         android:background="@drawable/outline_edittext_20"
         android:ems="10"
         android:gravity="center_vertical"
-        android:hint="Search natiionality"
+        android:hint="Search nationality"
         android:inputType="text"
         android:minHeight="48dp"
         android:padding="10dp"
@@ -101,53 +101,126 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-    <com.google.android.flexbox.FlexboxLayout
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="367dp"
-        android:layout_height="402dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText1"
-        app:layout_constraintVertical_bias="0.093"
-        app:flexDirection="column"
-        android:scrollbars="vertical">
+        app:layout_constraintTop_toBottomOf="@+id/editTextText1">
 
-        <CheckBox
-            android:id="@+id/checkBox8"
-            style="@style/CustomCheckbox02"
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/flexboxLayout2"
             android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:paddingLeft="11dp"
-            android:text="@string/reg_4"
-            android:textColor="@color/black"
-            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:flexDirection="column"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.088"
             app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="VisualLintButtonSize"
-            tools:layout_editor_absoluteY="152dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText1"
+            app:layout_constraintVertical_bias="0.093">
 
-            />
+            <CheckBox
+                android:id="@+id/checkBox8"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Afghanistan"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-        <CheckBox
-            android:id="@+id/checkBox9"
-            style="@style/CustomCheckbox02"
-            android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:paddingLeft="11dp"
-            android:text="@string/reg_4"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.088"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="VisualLintButtonSize"
-            tools:layout_editor_absoluteY="152dp"
+            <CheckBox
+                android:id="@+id/checkBox9"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Albania"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-            />
+            <CheckBox
+                android:id="@+id/checkBox11"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-    </com.google.android.flexbox.FlexboxLayout>
+            <CheckBox
+                android:id="@+id/checkBox12"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                style="@style/CustomCheckbox02"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:paddingLeft="11dp"
+                android:text="Indonesia"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </ScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
