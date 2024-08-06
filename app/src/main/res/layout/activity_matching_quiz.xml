@@ -7,4 +7,117 @@
     android:layout_height="match_parent"
     tools:context=".MatchingQuiz">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="367dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="28dp"
+        android:max="120"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:progress="10"
+        android:progressDrawable="@drawable/rounded_corners_progressbar"
+        android:progressTint="#A084DC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 of 12"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/bontal"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/li"
+        android:textColor="@color/black"
+        android:textSize="@dimen/def_16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/low_radius"
+        android:text="Not at all"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_white"
+        android:textSize="@dimen/def_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <Button
+        android:id="@+id/buttonnext1"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/low_radius"
+        android:text="Several days"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_white"
+        android:textSize="@dimen/def_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnext" />
+
+    <Button
+        android:id="@+id/buttonnext2"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/low_radius"
+        android:text="More than half the days"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_white"
+        android:textSize="@dimen/def_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnext1" />
+
+    <Button
+        android:id="@+id/buttonnext3"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/low_radius"
+        android:text="Nearly every day"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_white"
+        android:textSize="@dimen/def_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonnext2"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

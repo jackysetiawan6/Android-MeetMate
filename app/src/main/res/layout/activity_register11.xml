@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/register11"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Register11Activity">
@@ -25,35 +25,69 @@
 
     <Button
         android:id="@+id/buttonback"
-        android:layout_width="170dp"
+        android:layout_width="367dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/button_with_border_back"
-        android:text="Back"
-        android:textColor="@color/med_purple"
-        android:padding="10dp"
         android:gravity="center"
+        android:padding="10dp"
+        android:text="Contact Us"
+        android:textAllCaps="false"
+        android:textColor="@color/med_purple"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.098"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAllCaps="false"
-        />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/buttonnext"
-        android:layout_width="170dp"
+        android:layout_width="367dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:text="Next"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/radius50_button"
-        android:textColor="@color/purple_white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.905"
-        app:layout_constraintStart_toStartOf="parent"
+        android:text="Finish registration"
         android:textAllCaps="false"
+        android:textColor="@color/purple_white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Your profile is under review"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/big_32"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
         />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/spam2"
+        android:textSize="@dimen/small_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        android:textColor="@color/gray"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="206dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonnext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/minions" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

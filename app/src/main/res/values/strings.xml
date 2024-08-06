@@ -11,6 +11,9 @@
     <string name="reg_9">(Option) Receive event notifications</string>
     <string name="reg_10">(Option) Receive push notification at night</string>
     <string name="spam">TThis picture would be used to verify your account and would later be used for your profile picture. You can always change your profile picture later, for now please register at least 2 picture where it shows your face clearly</string>
+    <string name="spam2">To ensure safe meetings, an administrator is reviewing your profile. You will be notified via push notification once approved. (This may take up to 24 hours)</string>
+    <string name="bontal">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="li">Little interest or pleasure in doing things?</string>
     <string-array name="countries_array">
         <item>Afghanistan</item>
         <item>Albania</item>
