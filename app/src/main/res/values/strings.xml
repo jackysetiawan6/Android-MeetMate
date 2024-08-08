@@ -14,6 +14,7 @@
     <string name="spam2">To ensure safe meetings, an administrator is reviewing your profile. You will be notified via push notification once approved. (This may take up to 24 hours)</string>
     <string name="bontal">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
     <string name="li">Little interest or pleasure in doing things?</string>
+    <string name="lorem"><![CDATA[Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.]]></string>
     <string-array name="countries_array">
         <item>Afghanistan</item>
         <item>Albania</item>

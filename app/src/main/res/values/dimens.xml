@@ -5,4 +5,5 @@
     <dimen name="big_32">32sp</dimen>
     <dimen name="small_12">12sp</dimen>
     <dimen name="big_48">48sp</dimen>
+    <dimen name="id_20sp">20sp</dimen>
 </resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profilemain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity2">
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgprof" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="184dp"
+        android:src="@drawable/elipseminision"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="16dp"
+        android:text="Woodlands, Singapore"
+        android:padding="7dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        android:textColor="@color/dark_gray"/>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="367dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="84dp"
+        android:orientation="vertical"
+        app:flexDirection="column"
+        app:justifyContent="space_between"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kodir Irawan, 21"
+            android:textColor="@color/dark_gray"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INTJ ~ The one and only me"
+            android:textColor="@color/dark_gray"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem"
+            android:textColor="@color/dark_gray"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            app:alignItems="center"
+            app:flexDirection="column"
+            app:justifyContent="space_around">
+
+            <LinearLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod"
+                    android:padding="7dp"
+                    android:text="Male"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod"
+                    android:padding="7dp"
+                    android:text="172 cm"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod2"
+                    android:padding="7dp"
+                    android:text="Vegan"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod2"
+                    android:padding="7dp"
+                    android:text="Sports"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod2"
+                    android:padding="7dp"
+                    android:text="Nanyang University"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tagsbuttonmod2"
+                    android:padding="7dp"
+                    android:text="Computer Science"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_gray"/>
+            </LinearLayout>
+        </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:justifyContent="space_between"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView13">
+
+        <ImageButton
+            android:id="@+id/imageView17"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:textAlignment="center" />
+
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            app:alignItems="center"
+            app:justifyContent="space_around">
+
+            <ImageButton
+                android:id="@+id/imageView18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/outline_settings_24"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <ImageButton
+                android:id="@+id/imageView19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/outline_edit_24"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="190dp"
+                tools:layout_editor_absoluteY="41dp" />
+        </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
