@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinEventActivity">
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:alignItems="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/baseline_arrow_back_50" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="10dp"
+            android:text="Join Event"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/id_20sp" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+    <ScrollView
+        android:layout_width="365dp"
+        android:layout_height="685dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout3">
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:alignItems="center"
+            app:flexDirection="column"
+            app:justifyContent="space_around"
+
+            >
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/kleefix"
+                android:orientation="vertical"
+                app:alignItems="flex_end"
+                app:justifyContent="flex_end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="134dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corners_right">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="30dp"
+                        app:alignItems="flex_start"
+                        app:flexDirection="column"
+                        app:justifyContent="space_around">
+
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Summertime Odyssey Event"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Golden Apple Archipelago"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/small_12" />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        app:alignItems="center"
+                        app:justifyContent="center">
+
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/radius50_button"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Join Event"
+                            android:textAllCaps="false"
+                            android:textColor="@color/purple_white"
+                            android:textSize="@dimen/small_12"
+                            tools:layout_editor_absoluteX="282dp"
+                            tools:layout_editor_absoluteY="156dp" />
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/kleefix"
+                android:orientation="vertical"
+                app:alignItems="flex_end"
+                app:justifyContent="flex_end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="134dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corners_right">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="30dp"
+                        app:alignItems="flex_start"
+                        app:flexDirection="column"
+                        app:justifyContent="space_around">
+
+
+                        <TextView
+                            android:id="@+id/textView57"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Summertime Odyssey Event"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView58"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Golden Apple Archipelago"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/small_12" />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        app:alignItems="center"
+                        app:justifyContent="center">
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/radius50_button"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Join Event"
+                            android:textAllCaps="false"
+                            android:textColor="@color/purple_white"
+                            android:textSize="@dimen/small_12"
+                            tools:layout_editor_absoluteX="282dp"
+                            tools:layout_editor_absoluteY="156dp" />
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/kleefix"
+                android:orientation="vertical"
+                app:alignItems="flex_end"
+                app:justifyContent="flex_end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="134dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corners_right">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="30dp"
+                        app:alignItems="flex_start"
+                        app:flexDirection="column"
+                        app:justifyContent="space_around">
+
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Summertime Odyssey Event"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Golden Apple Archipelago"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/small_12" />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        app:alignItems="center"
+                        app:justifyContent="center">
+
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/radius50_button"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Join Event"
+                            android:textAllCaps="false"
+                            android:textColor="@color/purple_white"
+                            android:textSize="@dimen/small_12"
+                            tools:layout_editor_absoluteX="282dp"
+                            tools:layout_editor_absoluteY="156dp" />
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/kleefix"
+                android:orientation="vertical"
+                app:alignItems="flex_end"
+                app:justifyContent="flex_end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="134dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corners_right">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="30dp"
+                        app:alignItems="flex_start"
+                        app:flexDirection="column"
+                        app:justifyContent="space_around">
+
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Summertime Odyssey Event"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Golden Apple Archipelago"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/small_12" />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        app:alignItems="center"
+                        app:justifyContent="center">
+
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/radius50_button"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Join Event"
+                            android:textAllCaps="false"
+                            android:textColor="@color/purple_white"
+                            android:textSize="@dimen/small_12"
+                            tools:layout_editor_absoluteX="282dp"
+                            tools:layout_editor_absoluteY="156dp" />
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="176dp"
+                android:background="@drawable/kleefix"
+                android:orientation="vertical"
+                app:alignItems="flex_end"
+                app:justifyContent="flex_end"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.431"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="134dp">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corners_right">
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="30dp"
+                        app:alignItems="flex_start"
+                        app:flexDirection="column"
+                        app:justifyContent="space_around">
+
+
+                        <TextView
+                            android:id="@+id/textView55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Summertime Odyssey Event"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Golden Apple Archipelago"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/small_12" />
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="71dp"
+                        android:orientation="horizontal"
+                        app:alignItems="center"
+                        app:justifyContent="center">
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="@drawable/radius50_button"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="Join Event"
+                            android:textAllCaps="false"
+                            android:textColor="@color/purple_white"
+                            tools:layout_editor_absoluteX="282dp"
+                            tools:layout_editor_absoluteY="156dp" />
+
+
+                    </com.google.android.flexbox.FlexboxLayout>
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+        </com.google.android.flexbox.FlexboxLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
