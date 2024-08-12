@@ -2,8 +2,7 @@
     <!-- Line at the top -->
     <item
 
-        android:top="2dp"
-        android:bottom="52dp">
+        android:bottom="53dp">
         <shape android:shape="rectangle">
             <solid android:color="@color/med_purple"/>
             <size android:height="2dp"/>
