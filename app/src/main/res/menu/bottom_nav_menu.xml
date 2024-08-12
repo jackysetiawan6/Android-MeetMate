@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Explore"
+        android:icon="@drawable/baseline_explore_24"
+        android:id="@+id/explore"/>
+    <item android:title="Find"
+        android:icon="@drawable/baseline_search_24"
+        android:id="@+id/find"/>
+    <item android:title="Friends"
+        android:icon="@drawable/baseline_people_24"
+        android:id="@+id/friends"/>
+    <item android:title="Events"
+        android:icon="@drawable/baseline_event_24"
+        android:id="@+id/events"/>
+    <item android:title="Me"
+        android:icon="@drawable/baseline_person_24"
+        android:id="@+id/me"/>
+</menu>
