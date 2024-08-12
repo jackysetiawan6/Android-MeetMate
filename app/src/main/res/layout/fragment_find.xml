@@ -1,14 +1,589 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FindFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexboxLayout13"
+        android:layout_width="367dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:alignItems="center"
+        app:justifyContent="space_around"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_location_on_24" />
+
+        <LinearLayout
+            android:layout_width="264dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/def_16" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sentul City, within 1 km"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/def_16" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageView41"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_inside"
+            android:src="@drawable/baseline_search_24" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="367dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flexboxLayout13">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="445dp"
+                android:layout_height="match_parent"
+                app:flexDirection="row"
+                app:justifyContent="space_between">
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/square_with_black_corner"
+                    android:padding="10dp"
+                    app:alignItems="center"
+                    app:flexDirection="column"
+                    app:justifyContent="space_around">
+
+                    <ImageButton
+                        android:id="@+id/imageView44"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hansen Vallyan"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView46"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/groupedreal"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/square_with_black_corner"
+                    android:padding="10dp"
+                    app:alignItems="center"
+                    app:flexDirection="column"
+                    app:justifyContent="space_around">
+
+                    <ImageButton
+                        android:id="@+id/imageView45"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chelsy
+Chandra"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/groupedreal"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/square_with_black_corner"
+                    android:padding="10dp"
+                    app:alignItems="center"
+                    app:flexDirection="column"
+                    app:justifyContent="space_around">
+
+                    <ImageButton
+                        android:id="@+id/imageView42"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Elona Celine"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/groupedreal"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/square_with_black_corner"
+                    android:padding="10dp"
+                    app:alignItems="center"
+                    app:flexDirection="column"
+                    app:justifyContent="space_around">
+
+                    <ImageButton
+                        android:id="@+id/imageView52"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Della Artika"
+                        android:textAlignment="center"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView50"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/groupedreal"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="367dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="570dp"
+                android:layout_height="wrap_content"
+                app:justifyContent="space_between">
+
+                <TextView
+                    android:id="@+id/textView98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radius50_button"
+                    android:paddingStart="11dp"
+                    android:paddingTop="8dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="8dp"
+                    android:text="All Hobbies"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_12"
+                    tools:layout_editor_absoluteX="32dp"
+                    tools:layout_editor_absoluteY="244dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/button_with_border_back"
+                    android:paddingStart="11dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="4dp"
+                    app:alignItems="center">
+
+                    <ImageView
+                        android:id="@+id/imageView49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_directions_bike_24"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="Biking"
+                        android:textColor="@color/med_purple"
+                        android:textSize="@dimen/small_12"
+                        tools:layout_editor_absoluteX="32dp"
+                        tools:layout_editor_absoluteY="244dp" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/button_with_border_back"
+                    android:paddingStart="11dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="4dp"
+                    app:alignItems="center">
+
+                    <ImageView
+                        android:id="@+id/imageView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_directions_run_24"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="Running"
+                        android:textColor="@color/med_purple"
+                        android:textSize="@dimen/small_12"
+                        tools:layout_editor_absoluteX="32dp"
+                        tools:layout_editor_absoluteY="244dp"
+                        />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/button_with_border_back"
+                    android:paddingStart="11dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="4dp"
+                    app:alignItems="center">
+
+                    <ImageView
+                        android:id="@+id/imageView55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_sports_gymnastics_24"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="Gymnast"
+                        android:textColor="@color/med_purple"
+                        android:textSize="@dimen/small_12"
+                        tools:layout_editor_absoluteX="32dp"
+                        tools:layout_editor_absoluteY="244dp" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/button_with_border_back"
+                    android:paddingStart="11dp"
+                    android:paddingTop="4dp"
+                    android:paddingEnd="11dp"
+                    android:paddingBottom="4dp"
+                    app:alignItems="center">
+
+                    <ImageView
+                        android:id="@+id/imageView77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_sports_handball_24"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:text="handball"
+                        android:textColor="@color/med_purple"
+                        android:textSize="@dimen/small_12"
+                        tools:layout_editor_absoluteX="32dp"
+                        tools:layout_editor_absoluteY="244dp" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="367dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                app:flexDirection="column"
+                app:justifyContent="space_between">
+
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/square_with_black_corner"
+                    app:alignItems="center">
+
+                    <ImageButton
+                        android:id="@+id/imageView34"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        app:flexDirection="column">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Ruth Timorah"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Swimming, Biking, Dancing"
+                            android:textColor="@color/dark_gray" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/square_with_black_corner"
+                    app:alignItems="center">
+
+                    <ImageButton
+                        android:id="@+id/imageView59"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        app:flexDirection="column">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Ruth Timorah"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Swimming, Biking, Dancing"
+                            android:textColor="@color/dark_gray" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/square_with_black_corner"
+                    app:alignItems="center">
+
+                    <ImageButton
+                        android:id="@+id/imageView58"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        app:flexDirection="column">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Ruth Timorah"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Swimming, Biking, Dancing"
+                            android:textColor="@color/dark_gray" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/square_with_black_corner"
+                    app:alignItems="center">
+
+                    <ImageButton
+                        android:id="@+id/imageView65"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/rounded_pink"
+                        android:src="@drawable/carrot"
+                        tools:layout_editor_absoluteX="75dp"
+                        tools:layout_editor_absoluteY="320dp" />
+
+                    <com.google.android.flexbox.FlexboxLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        app:flexDirection="column">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Ruth Timorah"
+                            android:textColor="@color/dark_gray"
+                            android:textSize="@dimen/def_16"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Swimming, Biking, Dancing"
+                            android:textColor="@color/dark_gray" />
+                    </com.google.android.flexbox.FlexboxLayout>
+                </com.google.android.flexbox.FlexboxLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageView47"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/rounded_inside"
+        android:src="@drawable/baseline_hotel_class_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

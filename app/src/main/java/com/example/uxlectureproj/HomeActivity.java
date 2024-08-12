@@ -23,7 +23,6 @@ public class HomeActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         replaceFragment(new ExploreFragment());
 
-
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 

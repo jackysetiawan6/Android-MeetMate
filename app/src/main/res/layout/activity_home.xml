@@ -9,13 +9,14 @@
 
     <FrameLayout
         android:id="@+id/frame_layout"
-        android:layout_width="410dp"
-        android:layout_height="782dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="751dp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
     </FrameLayout>
 
