@@ -2,7 +2,6 @@ package com.example.uxlectureproj;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -25,7 +24,7 @@ public class Register1Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        registertonext=findViewById(R.id.buttonnext);
+        registertonext=findViewById(R.id.buttonmatched);
         registertonext.setOnClickListener(v -> {
             Intent intent=new Intent(Register1Activity.this, Register2Activity.class);
             startActivity(intent);

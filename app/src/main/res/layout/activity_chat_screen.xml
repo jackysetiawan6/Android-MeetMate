@@ -347,7 +347,7 @@
 
         <EditText
             android:id="@+id/msg1"
-            android:layout_width="295dp"
+            android:layout_width="320dp"
             android:layout_height="50dp"
             android:background="@drawable/rounded_edittext"
             android:drawableStart="@drawable/baseline_emoji_emotions_24"
@@ -361,7 +361,7 @@
         <ImageView
             android:id="@+id/imageView33"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginEnd="10dp"
             android:background="@drawable/rounded_rouned"
             android:padding="13dp"

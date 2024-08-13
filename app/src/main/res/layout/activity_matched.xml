@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/elipseminision" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonchat"
         android:layout_width="367dp"
         android:layout_height="45dp"
         android:layout_marginTop="52dp"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonchat"
         app:layout_constraintVertical_bias="0.056"
         app:rippleColor="#E9C5C5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

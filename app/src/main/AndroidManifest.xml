@@ -13,6 +13,12 @@
         android:theme="@style/Theme.UXLECTUREPROJ"
         tools:targetApi="31">
         <activity
+            android:name=".MyEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TabLayoutAct"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

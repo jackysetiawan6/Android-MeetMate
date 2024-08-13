@@ -2,19 +2,12 @@ package com.example.uxlectureproj;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.LinearLayout;
-import android.widget.ScrollView;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import com.google.android.flexbox.FlexboxLayout;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class Register7Activity extends AppCompatActivity {
     private Button registertonext;
@@ -29,7 +22,7 @@ public class Register7Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        registertonext=findViewById(R.id.buttonnext);
+        registertonext=findViewById(R.id.buttonmatched);
         registertonext.setOnClickListener(v -> {
             Intent intent=new Intent(Register7Activity.this, Register8Activity.class);
             startActivity(intent);

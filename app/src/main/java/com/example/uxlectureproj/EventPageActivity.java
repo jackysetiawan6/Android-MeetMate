@@ -1,6 +1,8 @@
 package com.example.uxlectureproj;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +12,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class EventPageActivity extends AppCompatActivity {
 
+    ImageButton buttoncreate;
+    ImageButton buttonjoin;
+    ImageButton buttonmyevent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +25,25 @@ public class EventPageActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        buttonmyevent=findViewById(R.id.buttonmyevent);
+        buttonmyevent.setOnClickListener(v -> {
+            Intent intent=new Intent(EventPageActivity.this, MyEventActivity.class);
+            startActivity(intent);
+        });
+
+        buttonjoin=findViewById(R.id.buttonjoin);
+        buttonjoin.setOnClickListener(v -> {
+            Intent intent=new Intent(EventPageActivity.this, JoinEventActivity.class);
+            startActivity(intent);
+        });
+
+        buttoncreate=findViewById(R.id.buttoncreate);
+        buttoncreate.setOnClickListener(v -> {
+            Intent intent=new Intent(EventPageActivity.this, CreateEventActivity1.class);
+            startActivity(intent);
+        });
+
+
     }
 }

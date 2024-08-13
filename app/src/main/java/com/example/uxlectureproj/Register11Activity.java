@@ -23,9 +23,9 @@ public class Register11Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        registertonext=findViewById(R.id.buttonnext);
+        registertonext=findViewById(R.id.buttonmatched);
         registertonext.setOnClickListener(v -> {
-            Intent intent=new Intent(Register11Activity.this, MainActivity.class);
+            Intent intent=new Intent(Register11Activity.this, HomeActivity.class);
             startActivity(intent);
         });
 

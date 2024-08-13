@@ -23,7 +23,7 @@ public class Register3Activity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        registertonext=findViewById(R.id.buttonnext);
+        registertonext=findViewById(R.id.buttonmatched);
         registertonext.setOnClickListener(v -> {
             Intent intent=new Intent(Register3Activity.this, Register4Activity.class);
             startActivity(intent);

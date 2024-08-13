@@ -243,7 +243,7 @@
         />
 
     <Button
-        android:id="@+id/buttonnext"
+        android:id="@+id/buttonmatched"
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"

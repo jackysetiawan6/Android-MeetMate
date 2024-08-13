@@ -574,7 +574,7 @@ Chandra"
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/imageView47"
+        android:id="@+id/imageAi"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginTop="56dp"

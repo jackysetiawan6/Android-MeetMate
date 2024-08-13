@@ -78,7 +78,7 @@
                 app:justifyContent="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton9"
+                    android:id="@+id/buttoncreator"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/rounded_inside"
@@ -116,7 +116,7 @@
                 app:justifyContent="center">
 
                 <ImageButton
-                    android:id="@+id/imageButton8"
+                    android:id="@+id/buttonjoining"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:background="@drawable/rounded_inside"
@@ -147,7 +147,7 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/buttonmyeventer"
             app:srcCompat="@drawable/baseline_calendar_month_24"
             android:layout_width="50dp"
             android:layout_height="50dp"

@@ -10,11 +10,17 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.uxlectureproj.databinding.ActivityHomeBinding;
 import com.example.uxlectureproj.databinding.ActivityMainBinding;
+import com.google.android.material.tabs.TabLayout;
 
 public class HomeActivity extends AppCompatActivity {
+
+    TabLayout tabLayout;
+    ViewPager2 viewPager;
+    VPadapter adapter;
 
     ActivityHomeBinding binding;
     @Override
@@ -22,6 +28,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         replaceFragment(new ExploreFragment());
+
 
         binding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -51,4 +58,5 @@ public class HomeActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.frame_layout,fragment);
         fragmentTransaction.commit();
     }
+
 }
