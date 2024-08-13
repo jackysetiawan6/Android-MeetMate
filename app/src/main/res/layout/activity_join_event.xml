@@ -42,7 +42,7 @@
 
     <ScrollView
         android:layout_width="365dp"
-        android:layout_height="685dp"
+        android:layout_height="600dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,7 +114,7 @@
                         app:justifyContent="center">
 
                         <Button
-                            android:id="@+id/button9"
+                            android:id="@+id/buttonjoinevent"
                             android:layout_width="120dp"
                             android:layout_height="40dp"
                             android:layout_marginEnd="20dp"
@@ -192,7 +192,7 @@
                         app:justifyContent="center">
 
                         <Button
-                            android:id="@+id/button6"
+                            android:id="@+id/buttonjoineventt"
                             android:layout_width="120dp"
                             android:layout_height="40dp"
                             android:layout_marginEnd="20dp"
@@ -270,7 +270,7 @@
                         app:justifyContent="center">
 
                         <Button
-                            android:id="@+id/button8"
+                            android:id="@+id/buttonjoineventtt"
                             android:layout_width="120dp"
                             android:layout_height="40dp"
                             android:layout_marginEnd="20dp"
