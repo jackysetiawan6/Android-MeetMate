@@ -1,6 +1,7 @@
 package com.example.uxlectureproj;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,6 +14,7 @@ import android.widget.ImageButton;
 
 public class FindFragment extends Fragment {
     ImageButton aibutton;
+    ImageButton feedbackbutton;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -22,6 +24,12 @@ public class FindFragment extends Fragment {
         aibutton = view.findViewById(R.id.imageAi);
         aibutton.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), MatchingQuiz.class);
+            startActivity(intent);
+        });
+
+        feedbackbutton = view.findViewById(R.id.feedbackbutton);
+        feedbackbutton.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), FeedbackActivity.class);
             startActivity(intent);
         });
         return view;

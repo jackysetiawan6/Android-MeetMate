@@ -584,5 +584,17 @@ Chandra"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
+    <ImageButton
+        android:id="@+id/feedbackbutton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/baseline_feedback_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
