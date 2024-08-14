@@ -36,7 +36,7 @@ public class CreateEventActivity1 extends AppCompatActivity {
 
         createevent=findViewById(R.id.addeventt);
         createevent.setOnClickListener(view -> {
-            Intent intent=new Intent(CreateEventActivity1.this, CreateEventActivity2.class);
+            Intent intent=new Intent(CreateEventActivity1.this, TabLayoutAct.class);
             startActivity(intent);
         });
 
