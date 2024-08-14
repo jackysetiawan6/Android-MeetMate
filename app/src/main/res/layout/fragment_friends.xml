@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/tab"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FriendsFragment">
+    tools:context=".TabLayoutAct">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout"
+        android:id="@+id/top_layout_friends"
         android:layout_width="367dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,14 +33,16 @@
             android:text="Blocked" />
     </com.google.android.material.tabs.TabLayout>
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager2"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_friends"
         android:layout_width="367dp"
-        android:layout_height="572dp"
-        android:layout_marginTop="28dp"
+        android:layout_height="476dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/top_layout_friends"
+        app:layout_constraintVertical_bias="0.083" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

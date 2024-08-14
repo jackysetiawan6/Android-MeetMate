@@ -8,8 +8,8 @@
 
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="367dp"
+        android:layout_height="450dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,6 +19,310 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/square_with_black_corner"
+                app:alignItems="center">
+
+                <ImageButton
+                    android:id="@+id/imageView35"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_pink"
+                    android:src="@drawable/carrot"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:flexDirection="column">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Stephen William"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Male, 20"
+                        android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/square_with_black_corner"
+                app:alignItems="center">
+
+                <ImageButton
+                    android:id="@+id/imageView37"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_pink"
+                    android:src="@drawable/carrot"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:flexDirection="column"
+                    android:layout_width="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Jacky Setiawan"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Male, 20"
+                        android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/square_with_black_corner"
+                app:alignItems="center">
+
+                <ImageButton
+                    android:id="@+id/imageView38"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_pink"
+                    android:src="@drawable/carrot"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:flexDirection="column"
+                    android:layout_width="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ichsan Ilyasa"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Male, 20"
+                        android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/square_with_black_corner"
+                app:alignItems="center">
+
+                <ImageButton
+                    android:id="@+id/imageView39"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_pink"
+                    android:src="@drawable/carrot"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:flexDirection="column"
+                    android:layout_width="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Ferren Andrea"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Female, 20"
+                        android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </com.google.android.flexbox.FlexboxLayout>
+
+
+            <com.google.android.flexbox.FlexboxLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/square_with_black_corner"
+                app:alignItems="center"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/imageView40"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/rounded_pink"
+                    android:src="@drawable/carrot"
+                    tools:layout_editor_absoluteX="75dp"
+                    tools:layout_editor_absoluteY="320dp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:flexDirection="column"
+                    android:layout_width="200dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Karina Tirtayana"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/def_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Female, 20"
+                        android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
+                </com.google.android.flexbox.FlexboxLayout>
+            </com.google.android.flexbox.FlexboxLayout>
 
             <com.google.android.flexbox.FlexboxLayout
                 android:layout_width="match_parent"
@@ -37,15 +341,16 @@
                     tools:layout_editor_absoluteY="320dp" />
 
                 <com.google.android.flexbox.FlexboxLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    app:flexDirection="column">
+                    app:flexDirection="column"
+                    >
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Ruth Timorah"
+                        android:text="Jegen Besar Dan Bulat"
                         android:textColor="@color/dark_gray"
                         android:textSize="@dimen/def_16"
                         android:textStyle="bold" />
@@ -53,8 +358,29 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Swimming, Biking, Dancing"
+                        android:text="Male, 69"
                         android:textColor="@color/dark_gray" />
+                </com.google.android.flexbox.FlexboxLayout>
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_message_24"
+                        android:background="@drawable/rounded_pink"
+                        android:layout_marginEnd="10dp"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/baseline_call_24"
+                        android:background="@drawable/rounded_pink"
+                        />
+
+
                 </com.google.android.flexbox.FlexboxLayout>
             </com.google.android.flexbox.FlexboxLayout>
 

@@ -7,7 +7,6 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class VPadapter extends FragmentStateAdapter {
 
-
     public VPadapter(@NonNull FragmentActivity fragmentActivity) {
         super(fragmentActivity);
     }
