@@ -17,13 +17,13 @@ public class VPadapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
       switch (position){
           case 0:
-              return new GeneralFragment();
+              return new OngoingFragment();
           case 1:
-              return new RequestFragment();
+              return new HistoryFragment();
           case 2:
-              return new BlockedFragment();
+              return new UpcomingFragment();
           default:
-              return new ExploreFragment();
+              return new OngoingFragment();
       }
     }
     @Override

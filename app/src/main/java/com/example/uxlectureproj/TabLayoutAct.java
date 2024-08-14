@@ -1,6 +1,7 @@
 package com.example.uxlectureproj;
 
 import android.os.Bundle;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,8 @@ public class TabLayoutAct extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager2 viewPager;
     VPadapter adapter;
+
+    ImageButton back;
 
 
     @Override
@@ -52,5 +55,10 @@ public class TabLayoutAct extends AppCompatActivity {
                     tabLayout.getTabAt(position).select();
                 }
             });
+
+            back = findViewById(R.id.imgbuttonbackevdet);
+        back.setOnClickListener(v -> {
+            finish();
+        });
     }
 }

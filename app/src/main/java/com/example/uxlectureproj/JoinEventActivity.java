@@ -3,6 +3,7 @@ package com.example.uxlectureproj;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ public class JoinEventActivity extends AppCompatActivity {
     Button joinevent;
     Button joinevent2;
     Button joinevent3;
+    ImageButton backbutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +42,10 @@ public class JoinEventActivity extends AppCompatActivity {
         joinevent3.setOnClickListener(v -> {
             Intent intent=new Intent(JoinEventActivity.this, EventDetailActivity.class);
             startActivity(intent);
+        });
+        backbutton=findViewById(R.id.imagebuttonback);
+        backbutton.setOnClickListener(v -> {
+            finish();
         });
     }
 }

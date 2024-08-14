@@ -20,12 +20,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageView15"
+            android:id="@+id/imagebuttonback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            app:srcCompat="@drawable/baseline_arrow_back_50" />
+            app:srcCompat="@drawable/baseline_arrow_back_33" />
 
         <TextView
             android:id="@+id/textView34"
@@ -84,6 +84,7 @@
 
 
         <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/addeventt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
@@ -250,7 +251,7 @@
     </com.google.android.flexbox.FlexboxLayout>
 
     <Button
-        android:id="@+id/buttonsave"
+        android:id="@+id/buttonsaveev"
         android:layout_width="367dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"

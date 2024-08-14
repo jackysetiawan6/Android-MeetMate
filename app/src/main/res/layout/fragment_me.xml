@@ -162,19 +162,13 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="16dp"
     android:orientation="horizontal"
-    app:justifyContent="space_between"
+    app:justifyContent="flex_end"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.636"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="@+id/imageView13">
 
-    <ImageButton
-        android:id="@+id/imageView17back"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@android:color/transparent"
-        android:src="@drawable/baseline_arrow_back_24"
-        android:textAlignment="center" />
+
 
 
     <com.google.android.flexbox.FlexboxLayout

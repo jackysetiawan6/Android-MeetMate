@@ -20,12 +20,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageButton
-            android:id="@+id/imageView15"
+            android:id="@+id/imgbuttonbackevdet"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            app:srcCompat="@drawable/baseline_arrow_back_50" />
+            app:srcCompat="@drawable/baseline_arrow_back_33" />
 
         <TextView
             android:id="@+id/textView34"
@@ -172,7 +172,7 @@
                         android:id="@+id/textView72"
                         android:layout_width="69dp"
                         android:layout_height="wrap_content"
-                        android:text="19 Dec"
+                        android:text="20 Dec"
                         android:textAlignment="center"
                         android:textColor="@color/dark_gray"
                         android:textSize="@dimen/def_16" />
@@ -201,7 +201,7 @@
                         android:id="@+id/textView74"
                         android:layout_width="69dp"
                         android:layout_height="wrap_content"
-                        android:text="19 Dec"
+                        android:text="21 Dec"
                         android:textAlignment="center"
                         android:textColor="@color/dark_gray"
                         android:textSize="@dimen/def_16" />
@@ -230,7 +230,7 @@
                         android:id="@+id/textView76"
                         android:layout_width="69dp"
                         android:layout_height="wrap_content"
-                        android:text="19 Dec"
+                        android:text="22 Dec"
                         android:textAlignment="center"
                         android:textColor="@color/dark_gray"
                         android:textSize="@dimen/def_16" />

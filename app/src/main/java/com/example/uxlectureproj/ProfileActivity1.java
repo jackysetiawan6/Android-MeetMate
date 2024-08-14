@@ -17,7 +17,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 public class ProfileActivity1 extends AppCompatActivity {
 
-    private Button save;
+    Button save;
     ImageButton back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,12 +30,14 @@ public class ProfileActivity1 extends AppCompatActivity {
             return insets;
         });
 
-        save = findViewById(R.id.buttonsaver);
-        save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                replaceFragment(new MeFragment());
-            }
+        save=findViewById(R.id.buttonsaver);
+        save.setOnClickListener(view -> {
+            finish();
+        });
+
+        back=findViewById(R.id.imgbuttonbackprof);
+        back.setOnClickListener(view -> {
+            finish();
         });
     }
 
